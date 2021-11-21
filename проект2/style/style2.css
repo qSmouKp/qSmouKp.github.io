@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+h1{
+	color: #FF0000	;
+	text-align: center;
+	width: 100%;
+	font-size: 49px;
+}
+main{
+	width: 70%;
+ 			margin:auto;
+ 			padding: 50px;
+ 			background : #fff;
+   box-shadow:   0 0 10px 0px rgba(0,0,0, 0.3);
+   display:  flex;
+   flex-wrap: wrap;
+   justify-content: center; 
+}
+.pfoto{
+	width: calc(50% - 18px);
+	height: calc((35vw - 18px) / 16 *9);
+	margin: 9px;
+	background: #elelel;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.4s ease-in-out;
+	box-shadow: 0 0 10px 0px rgba(0,0,0, 0.3);
+}
+.pfoto: hover{
+	transform: scale(1.07) rotate(3deg);
+	box-shadow: 0 0 21px 0px rgba(0,0,0, 0.6);
+}
+
+.pfoto1{
+	background-image: url(../image/img2.1.jpg);
+}
+.pfoto1:hover{
+	transform: rotate(360deg);
+}
+.pfoto2{
+	background-image: url(../image/img2.2.jpg);
+}
+.pfoto2:hover{
+	transform:scaleY(1.5);
+}
+.pfoto3{
+	background-image: url(../image/img2.3.jpg);
+}
+.pfoto3:hover{
+	transform: translate(-30px, 40px) scale(1.2) scaleY(1.2);
+}
+.pfoto4{
+	background-image: url(../image/img2.4.jpg);
+}
+.pfoto4:hover{
+	transform: skewX(25deg);
+}
+.pfoto5{
+	background-image: url(../image/img2.5.jpg);
+}
+.pfoto5:hover{
+	transform: skew(-19deg, 25deg)
+}
+.pfoto6{
+	background-image: url(../image/img2.6.jpg);
+}
+.pfoto7{
+	background-image: url(../image/img2.7.jpg);
+}
+.pfoto8{
+	background-image: url(../image/img2.8.jpg);
+}
+.pfoto9{
+	background-image: url(../image/img2.9.jpg);
+}
+.pfoto10{
+	background-image: url(../image/img2.10.jpg);
+}
+.pfoto11{
+	background-image: url(../image/img2.11.jpg);
+}
+.pfoto12{
+	background-image: url(../image/img2.12.jpg);
+}
